@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-div1
+{
+    width: 100%;
+    min-height:100vh;
+    background-image: url(/image/joshua-sukoff-57G2uAtnsRw-unsplash.jpg);
+    background-position:center ;
+    background-size:cover;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top: 3rem;
+    padding-left: 8%;
+    padding-right:8%;
+    overflow:;
+}
+.logo{
+    color:white;
+    font-size:45px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.logo-span
+{
+    color:red;
+}
+ul{
+    margin-left: 2rem;
+}
+li{
+    margin-left: 1rem;
+}
+ul,li{
+    list-style-type:none;
+    display: inline-block;
+    
+    /* padding: 10px 25px;  */
+    font-size: 20px; 
+}
+ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-family: monospace;
+
+}
+ul li a:hover{
+    color:red;
+    transition: 1s;
+}
+h4{
+    color:aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0;
+    padding-left:12px;
+}
+h1{
+    color:red;
+    font-family:serif;
+    font-size: 35px;
+    padding:0;
+    padding-left: 10px;
+}
+.header-div2
+{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 35px;
+    height:300px;
+}
+.myimage{
+    height:350px;
+    width:550px;
+   
+}
+.para{
+    font-size:20px;
+    color:aliceblue;
+    padding-top:0px;
+    font-family: monospace;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;;
+    text-align:center;
+    text-shadow: 10px;
+}
+#ul2
+{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+#ulmob{
+    justify-content: left;
+    align-items: center;
+    display: none;
+    padding:0;
+}
+#icon{
+    width:50px;
+}
+
+.myimage{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:600px) {
+    #ul2{
+        display: none;
+    }
+    #ulmob{
+        display: flex;
+    }
+
+}
+.main
+{
+    background-image: url(/image/joshua-sukoff-57G2uAtnsRw-unsplash.jpg);
+    background-position:center ;
+    background-size:cover;
+    color: aliceblue;
+}
+#container
+{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+#personal-pic
+{
+    height:250px;
+    width:250px;
+    padding:2rem;
+    border-radius: 2rem;
+}
+h2
+{
+    padding:1rem;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+}
+h2:hover{
+    color:red;
+    transition: 1s;
+}
+#pa
+{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+    line-height: 1.8rem;
+    padding-top: 1.5rem;
+}
+#container3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box
+{
+    width:40%;
+    height:190px;
+    /* background-color: darkkhaki; */
+    margin:2rem solid black;
+    border-radius: 20px;
+}
+.box:hover{
+    background-color:black;
+}
+h3{
+    padding:1rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+#box-p
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+}
+#box-p2
+{
+    
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+#grade
+{
+    
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+#icon-2
+{
+    width:90px;
+    height:100px;
+    padding:0rem;
+}
+
+#ul-skill
+{
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#li-skill
+{
+    padding:2rem;
+
+}
+#footer
+{
+    background-image: url(/image/joshua-sukoff-57G2uAtnsRw-unsplash.jpg);
+    background-position:center ;
+    background-size:cover;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+#icon-3
+{
+    width:40px;
+
+}
+
+#ul-contact
+{
+    display:flex;
+    list-style-type:none;
+    justify-content:center;
+
+}
+#li-contact
+{
+    padding: 0.5rem 3rem;
+}
+
